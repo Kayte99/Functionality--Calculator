@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator Functionality</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer ></script>
+                
+</head>
+<body>
+    <div class="calculator">
+      <table class="table-body">
+         <tr>
+            <input type="text" placeholder="0" id="inputBox" />
+         </tr>
+         <div class="button-body">
+            <tr class="button-role">
+               <td> <button class="button-number" onclick="display('7')">7</button></td>
+               <td> <button class="button-number" onclick="display ('8')">8</button></td>
+               <td> <button class="button-number" onclick="display ('9')">9</button></td>
+               <td> <button class="button-number" onclick="display ('/')">&divide;</button> </td>
+            </tr>
+            
+            <tr class="button-role">
+               <td> <button class="button-number" onclick="display ('4')">4</button></td>
+               <td> <button class="button-number" onclick="display ('5')">5</button></td>
+               <td> <button class="button-number" onclick="display ('6')">6</button></td>
+               <td> <button class="button-number" onclick="display ('*')">&times;</button></td>
+            </tr>
+   
+            <tr class="button-role">
+               <td> <button class="button-number" onclick="display ('1')">1</button></td>
+               <td> <button class="button-number" onclick="display ('2')">2</button></td>
+               <td> <button class="button-number" onclick="display ('3')">3</button></td>
+               <td> <button class="button-number" onclick="display ('-')">&minus;</button></td>
+            </tr>
+   
+            <tr class="button-role">
+               <td> <button class="button-number" onclick="display ('0')">0</button></td>
+               <td> <button class="button-number" onclick="display ('.')">&period;</button></td>
+               <td> <button class="button-number" onclick="display ('+')">&plus;</button></td>
+               <td> <button id="equals-button" onclick="Calculate()">&equals;</button></td>
+            </tr>
+         </div>
+
+    </table>
+  
+</div>
+
+
+</body>
+</html>
