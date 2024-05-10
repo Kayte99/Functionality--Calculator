@@ -15,6 +15,10 @@ body{
     
     }
 
+    a{
+      color: crimson;
+    }
+
 .calculator{
       width: 350px;
       margin: 4.7rem auto;
